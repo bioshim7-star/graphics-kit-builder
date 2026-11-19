@@ -1,0 +1,3 @@
+import { RendererCanvas } from "./RendererCanvas";
+import { DemoPanels } from "./DemoPanels";
+export function RendererDemo(){return <main className="app"><header className="header"><strong>MX GRAPHICS STUDIO</strong><span style={{marginLeft:14,color:"#a1a1aa"}}>Photorealistic renderer preview</span></header><section className="viewer"><RendererCanvas><DemoPanels/></RendererCanvas><div className="note">Rendering test only. Replace the sample panels with named meshes from a licensed KTM 150 EXC 2025 GLB model.</div></section></main>}
